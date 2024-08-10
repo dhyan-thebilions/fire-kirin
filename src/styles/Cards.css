@@ -1,0 +1,45 @@
+.cards-bg {
+  background: #000;
+}
+.check-out-some {
+  color: #03fc1c;
+  text-align: center;
+  font-family: "Metal Mania";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 48px;
+}
+.card-override {
+  border: 1px solid #fff !important;
+  background-color: #000 !important;
+}
+.card-image {
+  padding: 4px;
+}
+.card-body-override {
+  color: #fff !important;
+  text-align: center !important;
+  font-family: Roboto !important;
+  font-size: 20px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: normal !important;
+  text-transform: uppercase !important;
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .check-out-some {
+    font-size: 48px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .check-out-some {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+}

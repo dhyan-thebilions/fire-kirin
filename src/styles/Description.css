@@ -1,0 +1,99 @@
+.description-bg {
+  background: #000;
+}
+.what-exactly-is {
+  color: #03fc1c;
+  text-align: center;
+  font-family: "Metal Mania";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 40px;
+}
+.fire-kirin-is {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  padding-top: 40px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.variety-wrapper {
+  padding-top: 64px;
+  padding-bottom: 140px;
+}
+.variety-of-games {
+  color: #03fc1c;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.from-the-fast-paced {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  padding-top: 16px;
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .what-exactly-is {
+    padding-top: 103px;
+    font-size: 48px;
+  }
+  .fire-kirin-is {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .variety-wrapper {
+    padding-top: 0px;
+    padding-bottom: 100px;
+  }
+  .variety-of-games {
+    padding-top: 40px;
+  }
+  .from-the-fast-paced {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .description-bg {
+    padding: 24px 5px;
+  }
+  .what-exactly-is {
+    padding-top: 0px;
+    font-size: 32px;
+  }
+  .fire-kirin-is {
+    padding-top: 24px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 18px;
+  }
+  .variety-wrapper {
+    padding-top: 24px;
+    padding-bottom: 34px;
+  }
+  .variety-of-games {
+    font-size: 24px;
+    padding-top: 16px;
+  }
+  .from-the-fast-paced {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,103 @@
+.banner-bg {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url("../../public/assets/banner-laptop-bg.svg") lightgray 50% / cover
+      no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  width: 100%;
+  height: auto;
+}
+.banner-wrapper {
+  padding-top: 464px;
+  padding-bottom: 539px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.the-ultimate-fish {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.fire-kirin-online {
+  color: #03fc1c;
+  text-align: center;
+  font-family: "Metal Mania";
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.banner-button {
+  margin-top: 24px;
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: 1px solid #03fc1c;
+  background: #024d21;
+  box-shadow: 4px 4px 50px 0px rgba(3, 252, 28, 0.25);
+}
+.get-free-fire {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .banner-bg {
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.4) 100%
+      ),
+      url("../../public/assets/banner-tablet-bg.svg") lightgray 50% / cover
+        no-repeat;
+    height: 998px;
+  }
+  .banner-wrapper {
+    padding-top: 472px;
+    padding-bottom: 339px;
+  }
+  .fire-kirin-online {
+    font-size: 48px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .banner-bg {
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.4) 100%
+      ),
+      url("../../public/assets/banner-mobile-bg.svg") lightgray 50% / cover
+        no-repeat;
+    height: 600px;
+  }
+  .banner-wrapper {
+    padding-top: 261px;
+    padding-bottom: 202px;
+  }
+  .the-ultimate-fish {
+    font-size: 18px;
+  }
+  .fire-kirin-online {
+    font-size: 32px;
+  }
+}

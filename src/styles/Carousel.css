@@ -1,0 +1,92 @@
+.carousel-bg {
+  background: #000;
+  padding-top: 100px;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+  padding: 20px;
+}
+
+.play-the-hottest {
+  color: #fff;
+  text-align: center;
+  font-family: "Metal Mania";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.explore-the-hottest {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 16px;
+
+  max-width: 900px;
+  width: 100%;
+}
+
+.carousel-wrapper {
+  margin-top: 32px;
+}
+
+.slick-prev {
+  left: -40px;
+}
+
+.slick-next {
+  right: -30px;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  font-size: 30px;
+  line-height: 1;
+  opacity: 0.75;
+  color: #03fc1c;
+}
+
+.slick-slide img {
+  width: 400px;
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .play-the-hottest {
+    font-size: 48px;
+  }
+  .slick-slide img {
+    width: 320px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .play-the-hottest {
+    font-size: 32px;
+  }
+  .explore-the-hottest {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .slick-slide img {
+    width: 220px;
+  }
+  .slick-prev {
+  left: 5px;
+}
+
+.slick-next {
+  right: 15px;
+}
+}

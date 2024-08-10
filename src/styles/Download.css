@@ -1,0 +1,181 @@
+.download-bg {
+  background: #000;
+  padding-top: 80px;
+}
+
+.download-the-firekirn {
+  color: #03fc1c;
+  text-align: center;
+  font-family: "Metal Mania";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.follow-these-steps {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 16px;
+}
+
+.card-download {
+  margin-top: 40px !important;
+  padding: 32px 48px !important;
+  border-radius: 8px !important;
+  border: 1px solid #03fc1c !important;
+  background-color: transparent !important;
+  min-width: 570px !important;
+  width: 100% !important;
+}
+
+.img-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.store-img {
+  width: auto;
+  height: 64px;
+}
+
+.qrcode-img {
+  width: auto;
+  height: 320px;
+  margin-top: 24px;
+}
+
+.download-txt {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 24px;
+}
+
+.download-button {
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: 1px solid #03fc1c;
+  background: #024d21;
+  box-shadow: 4px 4px 50px 0px rgba(3, 252, 28, 0.25);
+  margin-top: 24px;
+  width: 60%;
+}
+
+.download-button-txt {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.follow-us-our {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 100px;
+}
+
+.download-image-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 42px 22px 0 20px;
+}
+
+.facebook-icons {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.facebook-fill {
+  height: 52px;
+  width: 52px;
+  border-radius: 42px;
+  border: 1px solid rgba(3, 252, 28, 0.99);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 7px;
+}
+
+.vector-icon2 {
+  height: 20px;
+  width: 10.5px;
+  position: relative;
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .download-the-firekirn {
+    font-size: 48px;
+  }
+  .card-download {
+    padding: 32px !important;
+    min-width: 320px !important;
+    width: 100% !important;
+  }
+  .qrcode-img {
+    height: 240px;
+  }
+  .download-txt {
+    font-size: 24px;
+  }
+  .download-button {
+    padding: 12px 20px;
+    width: 100%;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .download-the-firekirn {
+    font-size: 32px;
+  }
+  .follow-these-steps {
+    font-size: 20px;
+  }
+  .card-download {
+    padding: 32px !important;
+    min-width: 352px !important;
+    width: 100% !important;
+  }
+  .img-wrapper {
+    align-items: center;
+  }
+  .store-img {
+    height: 52px;
+  }
+  .qrcode-img {
+    height: 160px;
+  }
+  .download-txt {
+    text-align: center;
+    font-size: 24px;
+  }
+  .download-button {
+    width: 100%;
+  }
+}
