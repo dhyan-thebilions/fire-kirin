@@ -25,8 +25,15 @@ const Download = () => {
                                     />
                                 </div>
                                 <div className="download-txt">Download for Android</div>
-                                <button className="download-button" onClick={() => window.open('http://start.firekirin.xyz:8580', '_blank')}>
-                                    <span className="download-button-txt">Download app for Android</span>
+                                <button
+                                    className="download-button"
+                                    onClick={() =>
+                                        window.open("http://start.firekirin.xyz:8580", "_blank")
+                                    }
+                                >
+                                    <span className="download-button-txt">
+                                        Download app for Android
+                                    </span>
                                 </button>
                             </Card>
                         </Col>
@@ -40,8 +47,15 @@ const Download = () => {
                                     />
                                 </div>
                                 <div className="download-txt">Download for iOS</div>
-                                <button className="download-button" onClick={() => window.open('http://start.firekirin.xyz:8580', '_blank')}>
-                                    <span className="download-button-txt">Download app for iOS</span>
+                                <button
+                                    className="download-button"
+                                    onClick={() =>
+                                        window.open("http://start.firekirin.xyz:8580", "_blank")
+                                    }
+                                >
+                                    <span className="download-button-txt">
+                                        Download app for iOS
+                                    </span>
                                 </button>
                             </Card>
                         </Col>
@@ -53,20 +67,34 @@ const Download = () => {
                     </div>
                     <div className="download-image-wrapper">
                         <div className="facebook-icons">
-                            <div className="facebook-fill">
+                            <div
+                                className="facebook-fill"
+                                onClick={() =>
+                                    window.open(
+                                        "https://www.facebook.com/Firekirinonline77",
+                                        "_blank"
+                                    )
+                                }
+                            >
                                 <img
                                     className="vector-icon2"
                                     alt=""
                                     src="../assets/facebook-icon.svg"
-                                    onClick={() => window.open('https://www.facebook.com/Firekirinonline77', '_blank')}
                                 />
                             </div>
-                            <div className="facebook-fill">
+                            <div
+                                className="facebook-fill"
+                                onClick={() =>
+                                    window.open(
+                                        "https://www.facebook.com/profile.php?id=61551686566639",
+                                        "_blank"
+                                    )
+                                }
+                            >
                                 <img
                                     className="vector-icon2"
                                     alt=""
                                     src="../assets/facebook-icon.svg"
-                                    onClick={() => window.open('https://www.facebook.com/profile.php?id=61551686566639', '_blank')}
                                 />
                             </div>
                         </div>
