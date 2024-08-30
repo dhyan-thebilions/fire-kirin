@@ -46,6 +46,61 @@
   line-height: 28px;
   padding-top: 16px;
 }
+.official-facebook-pages {
+  color: #03fc1c;
+  text-align: center;
+  font-family: "Metal Mania";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.please-contact-our-container {
+  margin-top: 16px;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.card-gamming {
+  border-radius: 8px !important;
+  border: 1px solid #03fc1c !important;
+  background: rgba(31, 31, 31, 0.5) !important;
+  padding: 22px 23px !important;
+  width: 472px !important;
+  height: 214px !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  display: flex !important;
+  gap: 25px !important;
+}
+.vip-gaming {
+  color: #03fc1c;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.vip-gaming-is {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: start;
+}
+.facebook-fill {
+  cursor: pointer;
+  box-sizing: border-box;
+  display: flex;
+  position: absolute;
+  top: 158px;
+}
 
 /* Tablet */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -67,6 +122,24 @@
   .from-the-fast-paced {
     padding-left: 140px;
     padding-right: 140px;
+  }
+  .official-facebook-pages {
+    font-size: 32px;
+  }
+  .please-contact-our-container {
+    font-size: 20px;
+  }
+  .card-gamming {
+    width: auto !important;
+    height: 270px !important;
+    padding: 24px !important;
+    gap: 10px !important;
+  }
+  .facebook-fill {
+    box-sizing: border-box;
+    display: flex;
+    position: absolute;
+    top: 200px;
   }
 }
 
@@ -95,5 +168,33 @@
   }
   .from-the-fast-paced {
     font-size: 16px;
+  }
+  .official-facebook-pages {
+    font-size: 32px;
+  }
+  .please-contact-our-container {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .card-gamming-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .card-gamming {
+    margin-top: 10px !important;
+    width: 340px !important;
+    height: auto !important;
+    padding: 24px !important;
+  }
+  .vip-gaming {
+    font-size: 20px;
+  }
+  .vip-gaming-is {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: start;
+  }
+  .facebook-fill {
+    position: static;
   }
 }

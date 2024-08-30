@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Container } from "reactstrap"
+import { Row, Col, Container, Card } from "reactstrap"
 import "../styles/Description.css";
 
 const Description = () => {
@@ -37,6 +37,59 @@ const Description = () => {
                             <div className="from-the-fast-paced">
                                 Our platform is designed with you in mind, offering easy navigation, secure transactions, and top-notch customer support.
                             </div>
+                        </Col>
+                    </Row>
+                </Container>
+                <div className="official-facebook-pages">OFFICIAL FACEBOOK PAGES</div>
+                <div className="please-contact-our-container">
+                    <div>Please contact our official</div>
+                    <div>Partners for account creation</div>
+                </div>
+                <Container className="d-flex justify-content-center py-sm-2 py-md-3 py-lg-5">
+                    <Row>
+                        <Col sm="12" md="6" className="card-gamming-wrapper">
+                            <Card className="card-gamming">
+                                <div className="vip-gaming">VIP GAMING</div>
+                                <div className="vip-gaming-is">
+                                    VIP Gaming is known for unmatched customer service, instant
+                                    cash-in and cash-outs and 24/7 support. Join them and experience
+                                    the thrill of online games.
+                                </div>
+                                <div className="facebook-fill">
+                                    <img
+                                        loading="lazy"
+                                        alt=""
+                                        src="/assets/icon/facebook-icon.png"
+                                        onClick={() =>
+                                            window.open(
+                                                "https://www.facebook.com/Firekirinonline77",
+                                                "_blank"
+                                            )
+                                        }
+                                    />
+                                </div>
+                            </Card>
+                        </Col>
+                        <Col sm="12" md="6" className="card-gamming-wrapper">
+                            <Card className="card-gamming">
+                                <div className="vip-gaming">Firekirin SLOTS </div>
+                                <div className="vip-gaming-is">
+                                    Join Firekirin slots to receive 200% bonus on the first deposit.
+                                </div>
+                                <div className="facebook-fill">
+                                    <img
+                                        loading="lazy"
+                                        alt=""
+                                        src="/assets/icon/facebook-icon.png"
+                                        onClick={() =>
+                                            window.open(
+                                                "https://www.facebook.com/profile.php?id=61551686566639",
+                                                "_blank"
+                                            )
+                                        }
+                                    />
+                                </div>
+                            </Card>
                         </Col>
                     </Row>
                 </Container>

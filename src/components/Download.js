@@ -61,7 +61,7 @@ const Download = () => {
                         </Col>
                     </Row>
                 </Container>
-                <Container>
+                {/* <Container>
                     <div className="follow-us-our">
                         Follow us our Facebook official page
                     </div>
@@ -99,7 +99,7 @@ const Download = () => {
                             </div>
                         </div>
                     </div>
-                </Container>
+                </Container> */}
             </div>
         </React.Fragment>
     );
